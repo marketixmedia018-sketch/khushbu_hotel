@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutani Stays - Jaipur | Review</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Stars -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <img src="kuratni_resort.jpeg" alt="Kutani Stays Logo" class="logo">
+                <p class="subtitle">Find Your Tranquil Here</p>
+                <p class="address">Jaipur, Rajasthan</p>
+            </div>
+            
+            <div class="rating-section">
+                <h2>Rate your experience</h2>
+                <div class="stars" id="star-rating">
+                    <i class="fa-solid fa-star" data-value="1"></i>
+                    <i class="fa-solid fa-star" data-value="2"></i>
+                    <i class="fa-solid fa-star" data-value="3"></i>
+                    <i class="fa-solid fa-star" data-value="4"></i>
+                    <i class="fa-solid fa-star" data-value="5"></i>
+                </div>
+                <p id="rating-text">Select a rating</p>
+            </div>
+
+            <div class="message-section">
+                <h2>Select a message</h2>
+                <div class="chips-container" id="chips-container">
+                    <p style="color: #94A3B8; text-align: center; padding: 1rem; font-size: 0.95rem;">Please select a star rating first</p>
+                </div>
+            </div>
+
+            <div class="action-section">
+                <button id="submit-btn" class="primary-btn" disabled>
+                    <span>Copy & Post to Google</span>
+                    <i class="fa-brands fa-google"></i>
+                </button>
+                <p class="helper-text">Your message will be copied. Paste it on the Google review page!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <!-- Canvas Confetti for party popper effect -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
